@@ -51,7 +51,7 @@ class POSConfig(models.Model):
                 DEP_EXPORT['Belege-Gruppe'].append({
                     'Signaturzertifikat': public_key,
                     'Zertifizierungsstellen': provider_keys,
-                    'Belege-Kompakt': receipts_compact,
+                    'Belege-kompakt': receipts_compact
                 })
 
             utc_now = datetime.now()
